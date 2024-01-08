@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordion2</title>
+    <style>
+        body {
+            width: 600px;
+            padding-top: 100px;
+            margin: 0 auto;
+        }
+        
+        .accordion--box {
+            border: 1px solid rosybrown;
+            border-radius: 5px;
+        }
+        
+        .accordion--title {
+            position: relative;
+            border: 1px solid transparent;
+        }
+        
+        .accordion--title h5 {
+            font-size: 20px;
+            padding: 10px;
+            background-color: lightpink;
+            color: #fff;
+            border-radius: 5px;
+            margin: 0px;
+        }
+        
+        .accordion--text {
+            padding: 70px 100px;
+            border: 1px solid transparent;
+            display: none;
+            color: lightpink;
+        }
+        
+        .accordion--title::before,
+        .accordion--title::after {
+            content: "";
+            position: absolute;
+        }
+        
+        .accordion--title::before {
+            background-color: #fff;
+            width: 16px;
+            height: 2px;
+            top: 18px;
+            right: 12px;
+        }
+        
+        .accordion--title::after {
+            background-color: #fff;
+            width: 2px;
+            height: 16px;
+            top: 12px;
+            right: 19px;
+        }
+        
+        .active::after {
+            display: none;
+        }
+        
+        .accordion--img {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>No good life is possible without education</h5>
+        </div>
+        <div class="accordion--text">
+            <p>It indorses the intelligence of human beings, develops his skill, and enables him to be industrious. It ensures his progress. Education also channelizes the undeveloped capacities, attitude, interest, urges and needs of the individual into
+                desirable channels.
+            </p>
+            <p>As per the report of the Kothari Commission, “the destiny of India is being shaped in its classrooms.” Education ingrain civic and social responsibility among everyone. India is a land of diversities. Therefore, in order to bring unity, education
+                is a means for emotional integration. We cannot do without any kind of education. Education is an essential aspect of human development. Education is a means of achieving a world of peace, justice, freedom, and equality for all. Thus,
+                education is extremely necessary for all. No good life is possible without education. </p>
+        </div>
+    </div>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>Importance of Education </h5>
+        </div>
+        <div class="accordion--img">
+            <img src="images/speech.jpg" alt="" width="600" height="430">
+        </div>
+    </div>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>Strategies and efforts at the national and international level </h5>
+        </div>
+        <div class="accordion--text">
+            <p>Universal elementary education has run the formulation of the project “education for all”. The provision of article 45 of the Indian constitution is a noble determination for the universalization of elementary education. Big efforts have been
+                made to reach the goal of providing elementary education to every child of the country through, universal enrolment, universal provision, and universal retention. </p>
+            <p>Thanks!! </p>
+        </div>
+    </div>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>Present of India </h5>
+        </div>
+        <div class="accordion--text">
+            <p>At present India is one of the best countries to live in. India is one of the best tourist attractions in the world. It has 29 states and every state has its varied culture. Hence, India has the richest varieties of cuisines in the world derived
+                from all states. India is rich in climatic and topographic conditions. </p>
+        </div>
+    </div>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>Future of India </h5>
+        </div>
+        <div class="accordion--text">
+            <p>Thus, in the end, we find that education is a significant factor for achieving success, building characters, and for living a wholesome and happy life. True education always humanizes the person. In this reference, “Education for all” has
+                become an international goal for both developed and developing countries.
+            </p>
+            <p>Thanks!! </p>
+        </div>
+    </div>
+    <div class="accordion--box">
+        <div class="accordion--title">
+            <h5>Conclusion </h5>
+        </div>
+        <div class="accordion--text">
+            <p>Thus, in the end, we find that education is a significant factor for achieving success, building characters, and for living a wholesome and happy life. True education always humanizes the person. In this reference, “Education for all” has
+                become an international goal for both developed and developing countries.
+            </p>
+            <p>Thanks!! </p>
+        </div>
+    </div>
+</body>
+
+</html>

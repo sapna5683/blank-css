@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accordian</title>
+    <script src="js/script.js"></script>
+    <style>
+        body {
+            width: 700px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+        
+        .accordian-block {
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        
+        .accordian-click {
+            background-color: #007fff;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 3px;
+            border: 1px solid transparent;
+            padding: 10px 10px;
+            margin: 0;
+            position: relative;
+        }
+        
+        .accordian-content {
+            padding: 50px 70px;
+            display: none;
+        }
+        
+        .accordian-click::before,
+        .accordian-click::after {
+            content: "";
+            position: absolute;
+            background-color: #fff;
+        }
+        
+        .accordian-click::before {
+            height: 2px;
+            width: 14px;
+            right: 27px;
+            top: 20px;
+        }
+        
+        .accordian-click::after {
+            height: 14px;
+            width: 2px;
+            right: 33px;
+            top: 15px;
+        }
+        
+        .active::after {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 1</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+
+
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 2</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 3</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 4</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 5</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 6</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+    <div class="accordian-block">
+        <h5 class="accordian-click">section 7</h5>
+        <div class="accordian-content">
+            <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada.
+                Vestibulum a velit eu ante scelerisque vulputate. </p>
+        </div>
+    </div>
+</body>
+
+</html>
